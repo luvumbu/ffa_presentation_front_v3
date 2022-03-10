@@ -16,13 +16,20 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = 'SELECT * FROM `info_all` WHERE `'.$type.'`="'.$info.'";';
+$sql = 'SELECT * FROM `info_all` WHERE `'.$type.'`="'.$info.'" LIMIT 10; ';
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "<a href='test ok'>". $row["get_users_nom_complet"].'</a><br/>' ;
+    
+
+
+    ?>
+
+<a href="<?php $row["get_users_nom_complet"]?>"><?php $row["get_users_nom_complet"]?></a></li>
+<a href="bokonzi.com">Website</a><br/>
+<?php 
   }
 } else {
   echo "0 results";
