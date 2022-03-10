@@ -16,7 +16,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = 'SELECT * FROM `info_all` WHERE `get_club_nom_complet`="Lille Metropole Athletisme*";';
+$sql = 'SELECT * FROM `info_all` WHERE `get_club_nom_complet`="'.$info.'";';
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
