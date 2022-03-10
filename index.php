@@ -94,7 +94,7 @@ if($config_==false){
 
  <script>
    var general_information_header_total = "";
-function general_information_header_total_js_x0(str) {
+function general_information_header_total_js(str) {
  
  
  
