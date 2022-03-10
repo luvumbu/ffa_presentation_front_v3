@@ -255,26 +255,13 @@ function general_information_header_total_js(str) {
 
 
 
-
- 
-  
- 
- 
-
-  
-// exemple de code 
-
-
-
-
-
-
-
-
-
-
 /* 
 Ajax(nomId,document/source.txt);
 */
 }
   
+
+
+function action_test(){
+  alert("action test") ; 
+}
