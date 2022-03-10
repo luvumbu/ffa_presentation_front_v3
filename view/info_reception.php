@@ -27,8 +27,10 @@ if ($result->num_rows > 0) {
 
     ?>
 
-<a href="<?php $row["get_users_nom_complet"]?>"><?php $row["get_users_nom_complet"]?></a></li>
-<a href="bokonzi.com">Website</a><br/>
+<a href="<?php $row["get_users_nom_complet"]?>">
+<?php $row["get_users_nom_complet"]?>
+</a></li>
+<a href="bokonzi.com"><?php $row["get_users_nom_complet"]?></a><br/>
 <?php 
   }
 } else {
