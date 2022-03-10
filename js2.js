@@ -13,3 +13,8 @@ function get_users_nom_complet_2(str) {
       xmlhttp.send();
     }
   }
+
+
+  function action_test(){
+      alert("function js2.js")
+  } 
