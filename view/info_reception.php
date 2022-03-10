@@ -43,4 +43,4 @@ $conn->close();
 
 
 
-<script src="fa-user-circle.js"></script>
+<script src="view/fa-user-circle.js"></script>
