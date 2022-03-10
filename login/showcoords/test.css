@@ -1,0 +1,11 @@
+#mousse{
+    position: absolute;
+    background-color: red;
+    border:1px solid black ; 
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+ 
+    top: 0;
+    z-index: 999;
+}

@@ -1,0 +1,28 @@
+b {
+    font-size:3em;
+  }
+  .p_img_w{
+    width:60%; 
+    margin:auto; 
+     
+    margin-top:60px; 
+  
+  }
+  .img_w{
+text-align:center; 
+width:100%; 
+margin:auto; 
+  }
+  
+  .bombe_class{
+    padding : 10px ; 
+    margin:2px; 
+    border:1px solid black ; 
+    font-size:2em ; 
+     
+  }
+  h5{
+   height:400px; 
+   overflow-y: scroll;
+   
+  }
