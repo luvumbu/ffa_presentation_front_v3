@@ -31,3 +31,10 @@ $conn->close();
  
  
 ?>
+
+
+<script>
+    function info_gt(){
+    alert("info gt ok ");
+  }
+</script>
