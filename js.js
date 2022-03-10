@@ -254,6 +254,8 @@ function general_information_header_total_js(str) {
   }
 
 
+
+  
  
   
  
