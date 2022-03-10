@@ -22,7 +22,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "<div onclick='info_gt(this)'>" . $row["get_users_nom_complet"].'</div><br/>' ;
+    echo "<div onclick='general_information_header_total_js()'>" . $row["get_users_nom_complet"].'</div><br/>' ;
   }
 } else {
   echo "0 results";
