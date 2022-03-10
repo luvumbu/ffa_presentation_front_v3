@@ -9,14 +9,14 @@ include ("../model/class/php/connexion.php") ;
 echo $info.'<br/>' ; 
 echo $type.'<br/>' ; 
 
- /*
+ 
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = 'SELECT * FROM `info_all` WHERE `get_club_nom_complet`="Lille Metropole Athletisme*";';
+$sql = 'SELECT * FROM `info_all` WHERE `'.$info..'`="'.$type.'";';
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -28,6 +28,6 @@ if ($result->num_rows > 0) {
   echo "0 results";
 }
 $conn->close();
-*/
+ 
  
 ?>
