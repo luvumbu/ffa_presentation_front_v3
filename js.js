@@ -233,7 +233,7 @@ Ajax("capture","view/info_reception.php");
 
 
 
-var general_information_header_total = "";
+   var general_information_header_total = "";
 function general_information_header_total_js(str) {
  
  
