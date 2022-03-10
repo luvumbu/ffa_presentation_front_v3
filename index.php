@@ -115,8 +115,8 @@ function general_information_header_total_js(str) {
 
 
  
-  function info_gt(_this){
-    alert(_this.value);
+  function info_gt(){
+    alert("info gt ok ");
   }
  
  
