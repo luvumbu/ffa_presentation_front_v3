@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"u481158665_ffa"},
+{"type":"table","name":"info_all","database":"u481158665_ffa","data":
+[
+{"get_epreuve_emplacement":""},
+{"get_epreuve_emplacement":"PLEIN AIR"},
+{"get_epreuve_emplacement":"SALLE"}
+]
+}
+]

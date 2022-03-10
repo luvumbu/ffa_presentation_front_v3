@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Hôte : 127.0.0.1:3306
+- Généré le : sam. 05 mars 2022 à 10:18
+- Version du serveur : 10.5.12-MariaDB-cll-lve
+- Version de PHP : 7.2.34
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="u481158665_ffa" collation="utf8mb4_unicode_ci" charset="utf8mb4">
+            <pma:table name="info_all">
+                CREATE TABLE `info_all` (
+                  `id_user` int(11) NOT NULL AUTO_INCREMENT,
+                  `id_epreuve_sex` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_cat` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_departement` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_nom_complet` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_region` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_epreuve_emplacement` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_0` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_epreuve_nom_complet` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_date_perf` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_1` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_perf` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_perf2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_villes_nom` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_naissance` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_naissance2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nationality` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nom_complet` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nom_complet_1` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `epreuve_sex` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_cat` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_departement` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_region` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_epreuve_emplacement` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_0` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_epreuve_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_date_perf` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_1` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_perf` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_perf2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_villes_nom` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_naissance` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_naissance2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nationality` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nom_complet_1` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `reccord` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `date_add` datetime NOT NULL DEFAULT current_timestamp(),
+                  PRIMARY KEY (`id_user`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3176716 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données : 'u481158665_ffa'
+    -->
+    <database name="u481158665_ffa">
+        <!-- Table info_all -->
+        <table name="info_all">
+            <column name="get_epreuve_emplacement"></column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_emplacement">PLEIN AIR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_emplacement">SALLE</column>
+        </table>
+    </database>
+</pma_xml_export>

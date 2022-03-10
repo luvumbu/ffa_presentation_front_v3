@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Hôte : 127.0.0.1:3306
+- Généré le : sam. 05 mars 2022 à 13:07
+- Version du serveur : 10.5.12-MariaDB-cll-lve
+- Version de PHP : 7.2.34
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="u481158665_ffa" collation="utf8mb4_unicode_ci" charset="utf8mb4">
+            <pma:table name="info_all">
+                CREATE TABLE `info_all` (
+                  `id_user` int(11) NOT NULL AUTO_INCREMENT,
+                  `id_epreuve_sex` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_cat` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_departement` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_nom_complet` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_region` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_epreuve_emplacement` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_0` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_epreuve_nom_complet` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_date_perf` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_1` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_perf` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_perf2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_villes_nom` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_naissance` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_naissance2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nationality` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nom_complet` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nom_complet_1` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `epreuve_sex` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_cat` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_departement` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_region` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_epreuve_emplacement` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_0` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_epreuve_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_date_perf` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_1` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_perf` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_perf2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_villes_nom` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_naissance` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_naissance2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nationality` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nom_complet_1` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `reccord` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `date_add` datetime NOT NULL DEFAULT current_timestamp(),
+                  PRIMARY KEY (`id_user`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3176716 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données : 'u481158665_ffa'
+    -->
+    <database name="u481158665_ffa">
+        <!-- Table info_all -->
+        <table name="info_all">
+            <column name="get_users_nationality"></column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">AFG</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">AHO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ALB</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ALG</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">AND</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ANG</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ARG</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ARM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">Au</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">AUS</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">AUT</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">AZE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BAH</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BAN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BDI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BEL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BEN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BER</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BLR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BOL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BOT</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BRA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BRN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BUL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">BUR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CAF</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CAM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CAN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CGO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CHA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CHI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CHN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CIV</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CMR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">COD</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">COL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">COM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CPV</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CRC</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CRO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CUB</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CYP</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">CZE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">DEN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">DJI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">DMA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">DOM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ECU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">EGY</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ERI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ESP</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">EST</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ETH</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">FIJ</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">FIN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">FR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">FSM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GAB</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GAM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GBR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GBS</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GEO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GEQ</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GER</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GHA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GRE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GUI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">GUY</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">HAI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">HON</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">HUN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">IND</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">IRI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">IRL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">IRQ</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ISL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ISR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ITA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">JAM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">JOR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">JPN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">KAZ</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">KEN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">KOR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">KOS</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">KUW</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LAO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LAT</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LBA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LBR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LCA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LES</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LIB</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LTU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">LUX</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MAD</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MAR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MAS</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MDA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MEX</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MGL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MKD</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MLI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MLT</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">Mohamed</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MON</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MOZ</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MRI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">MTN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">NAM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">NCA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">NED</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">NGR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">NIG</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">NOR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">NZL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">PAK</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">PER</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">PHI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">PLE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">POL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">POR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">PYF</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">Qd</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ROM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ROU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">RSA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">RUS</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">RWA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SEN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SEY</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SIN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SLE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SLO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SMR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SOM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SRB</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SRI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SSD</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SUD</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SUI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SUR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SVK</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SWE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SWZ</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">SYR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TAN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TGA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">THA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TKM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TOG</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TPE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TRI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TTO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TUN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">TUR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">UAE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">UGA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">UKR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">URU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">USA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">UZB</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">VAN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">VEN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">VIE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">YUG</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ZAM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_users_nationality">ZIM</column>
+        </table>
+    </database>
+</pma_xml_export>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Hôte : 127.0.0.1:3306
+- Généré le : sam. 05 mars 2022 à 10:09
+- Version du serveur : 10.5.12-MariaDB-cll-lve
+- Version de PHP : 7.2.34
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="u481158665_ffa" collation="utf8mb4_unicode_ci" charset="utf8mb4">
+            <pma:table name="info_all">
+                CREATE TABLE `info_all` (
+                  `id_user` int(11) NOT NULL AUTO_INCREMENT,
+                  `id_epreuve_sex` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_cat` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_departement` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_nom_complet` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_region` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_epreuve_emplacement` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_0` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_epreuve_nom_complet` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_date_perf` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_1` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_perf` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_perf2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_villes_nom` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_naissance` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_naissance2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nationality` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nom_complet` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nom_complet_1` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `epreuve_sex` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_cat` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_departement` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_region` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_epreuve_emplacement` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_0` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_epreuve_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_date_perf` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_1` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_perf` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_perf2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_villes_nom` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_naissance` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_naissance2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nationality` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nom_complet_1` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `reccord` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `date_add` datetime NOT NULL DEFAULT current_timestamp(),
+                  PRIMARY KEY (`id_user`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3176716 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données : 'u481158665_ffa'
+    -->
+    <database name="u481158665_ffa">
+        <!-- Table info_all -->
+        <table name="info_all">
+            <column name="get_club_departement"></column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">_ET</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">_HF</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">01</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">02</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">03</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">04</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">05</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">06</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">07</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">070</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">08</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">10</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">11</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">13</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">14</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">15</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">16</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">17</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">19</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">21</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">22</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">23</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">24</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">33</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">43</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">45</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">47</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">48</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">49</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">51</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">52</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">A-M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">ALS</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">AMI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">AQU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">ARA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">AUV</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">B-N</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">BES</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">BFC</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">BOR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">BOU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">BRE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">C-A</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">C-F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">C-T</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">CAE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">CEN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">CHA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">CLE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">COR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">CRE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">DIJ</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">F-</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">F-C</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">FSA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">FSG</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">FSU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">G-E</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">GRE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">GUA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">GUY</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">H-F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">H-N</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">I-F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">IDF</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">IFE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">IFO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">LAN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">LIL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">LIM</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">LOR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">LYO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">M-P</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">MAR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">MAY</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">MON</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">N-A</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">N-C</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">N-M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">NAN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">NIC</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">NOR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">NPC</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">O-T</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">OCC</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">ORL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">P-F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">P-L</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">PAR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">PCA</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">PIC</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">POI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">POL</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">PRO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">PYR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">R-A</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">RA1</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">RA2</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">RAE</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">RAO</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">REI</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">REN</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">REU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">STR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">SUD</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">TOU</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">UNS</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">VER</column>
+        </table>
+        <table name="info_all">
+            <column name="get_club_departement">W-F</column>
+        </table>
+    </database>
+</pma_xml_export>

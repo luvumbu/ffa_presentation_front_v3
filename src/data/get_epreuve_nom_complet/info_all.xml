@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Hôte : 127.0.0.1:3306
+- Généré le : sam. 05 mars 2022 à 13:01
+- Version du serveur : 10.5.12-MariaDB-cll-lve
+- Version de PHP : 7.2.34
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="u481158665_ffa" collation="utf8mb4_unicode_ci" charset="utf8mb4">
+            <pma:table name="info_all">
+                CREATE TABLE `info_all` (
+                  `id_user` int(11) NOT NULL AUTO_INCREMENT,
+                  `id_epreuve_sex` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_cat` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_departement` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_nom_complet` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_club_region` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_epreuve_emplacement` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_0` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_epreuve_nom_complet` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_date_perf` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_1` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_nom_2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_perf` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_users_perf2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_result_villes_nom` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_naissance` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_naissance2` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nationality` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nom_complet` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `id_get_users_nom_complet_1` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `epreuve_sex` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_cat` varchar(5) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_departement` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_club_region` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_epreuve_emplacement` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_0` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_epreuve_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_date_perf` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_1` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_nom_2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_perf` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_users_perf2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_result_villes_nom` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_naissance` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_naissance2` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nationality` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nom_complet` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `get_users_nom_complet_1` varchar(400) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `reccord` varchar(11) COLLATE utf8mb4_unicode_ci NOT NULL,
+                  `date_add` datetime NOT NULL DEFAULT current_timestamp(),
+                  PRIMARY KEY (`id_user`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=3176716 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données : 'u481158665_ffa'
+    -->
+    <database name="u481158665_ffa">
+        <!-- Table info_all -->
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet"></column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1 000m - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1 000m - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1 000m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1 000m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1 500m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1 500m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1/2 Marathon | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1/2 Marathon | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">10 000m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">10 000m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">10 Km Route | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">10 Km Route | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">100m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">100m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">100m | M | Vent : NC</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">100m | M | Vent : VR</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">100m Haies (76) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">100m Haies (84) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">110m Haies (106) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">110m Haies (91) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">110m Haies (99) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">120m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">15 Km Route | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">15 Km Route | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1500m Steeple (76) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">1500m Steeple (91) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">2 000m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">2 000m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">2 000m Marche-Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">2 000m Marche-Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">2000m Steeple (76) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">200m - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">200m - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">200m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">200m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">200m Haies (76) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">3 000m - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">3 000m - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">3 000m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">3 000m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">3 000m Marche-Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">3 000m Marche-Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">300m - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">300m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">300m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">320m Haies (76) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">320m Haies (84) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">400m - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">400m - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">400m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">400m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">400m Haies (76) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">400m Haies (84) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">400m Haies (91) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">5 000m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">5 000m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">5 Km Route | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">5 Km Route | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">50m - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">50m - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">50m Haies (76) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">50m Haies (76)-Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">50m Haies (84)-Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">50m Haies (84)-Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">50m Haies (91)-Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">50m Haies(106)-Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">60m - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">60m - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">60m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">60m Haies (76)-Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">60m Haies (84)-Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">60m Haies (91)-Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">60m Haies(106)-Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">800m - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">800m - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">800m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">800m | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">80m | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">80m Haies (76) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Disque (0.8 kg) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Hauteur - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Hauteur - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Hauteur | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Hauteur | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Javelot (600 g) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Javelot (700 g) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Javelot (800 g) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Longueur - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Longueur - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Longueur | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Longueur | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Mile - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Mile | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Perche - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Perche - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Perche | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Perche | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (3 kg) - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (3 kg) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (4 kg) | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (5 kg) - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (5 kg) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (6 kg) - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (6 kg) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (7 kg) - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Poids (7.26 kg) | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Triple saut - Salle | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Triple saut - Salle | M</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Triple saut | F</column>
+        </table>
+        <table name="info_all">
+            <column name="get_epreuve_nom_complet">Triple saut | M</column>
+        </table>
+    </database>
+</pma_xml_export>
