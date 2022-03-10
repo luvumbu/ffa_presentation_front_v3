@@ -277,6 +277,4 @@ function general_information_header_total_js(str) {
 Ajax(nomId,document/source.txt);
 */
 }
-    function info_gt(){
-    alert("info gt ok ");
-  }
+  
