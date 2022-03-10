@@ -22,7 +22,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "<a href='test ok'>". $row["get_users_nom_complet"].'</a><br/>' ;
+    echo "<div class='ok' onclick='ok_()'>". $row["get_users_nom_complet"].'</div><br/>' ;
     
   }
 } else {
@@ -35,7 +35,12 @@ $conn->close();
 
 
  <style>
-   a {
-     border:1px solid black ; 
+   .ok {
+     border:3px solid blue ; 
    }
+   
  </style>
+
+
+
+<script src="fa-user-circle.js"></script>
