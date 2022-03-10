@@ -16,7 +16,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = 'SELECT * FROM `info_all` WHERE `'.$type.'`="'.$info.'" LIMIT 10; ';
+$sql = 'SELECT * FROM `info_all` WHERE `'.$type.'`="'.$info.'" ';
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
