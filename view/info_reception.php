@@ -6,8 +6,8 @@ $info = $_SESSION['info'] ;
 $type = $_SESSION['type'] ; 
 include ("../model/class/php/connexion.php") ; 
 
-echo $info.'<br/>' ; 
-echo $type.'<br/>' ; 
+echo $info.'1 :<br/>' ; 
+echo $type.'2 : <br/>' ; 
 
  
 $conn = new mysqli($servername, $username, $password, $dbname);
