@@ -262,6 +262,6 @@ Ajax(nomId,document/source.txt);
   
 
 
-function action_test(){
-  alert("action test") ; 
+function action_test(_this){
+  alert(_this.title) ; 
 }
