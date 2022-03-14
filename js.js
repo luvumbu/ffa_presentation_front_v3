@@ -264,5 +264,6 @@ Ajax(nomId,document/source.txt);
 
 function action_test(_this){
   
-  alert(_this.title) ; 
+   
+  document.location.href="view/redirection_page.php"; 
 }
