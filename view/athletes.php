@@ -11,7 +11,7 @@ include("athletes.html") ;
   <div class="input-group-prepend">
     <span class="input-group-text">Nom des athletes par nom de famille</span>
   </div>
-  <textarea class="form-control" aria-label="With textarea" onkeyup="get_users_nom_complet_2(this.value)" ></textarea>
+  <textarea class="form-control" aria-label="With textarea" onkeyup="general_information_header_total_js(this.value)" ></textarea>
 </div>
 <div class="club_img"></div>
   <b href="" id="capture"></b>
