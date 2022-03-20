@@ -9,9 +9,9 @@ if ($q !== "") {
   foreach($a as $name) {
     if (stristr($q, substr($name, 0, $len))) {
       if ($hint === "") {
-        $hint = '<div onclick="general_search(this)" class="general_search_class">'.$name.'</div>';
+        $hint = '<div onclick="general_search(this)" title="'.$name.'" class="general_search_class">'.$name.'</div>';
       } else {
-        $hint .= '<div onclick="general_search(this)" class="general_search_class">'.$name.'</div>';
+        $hint .= '<div onclick="general_search(this)" title="'.$name.'" class="general_search_class">'.$name.'</div>';
       }
     }
   }

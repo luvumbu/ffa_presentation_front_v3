@@ -23,7 +23,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
     echo "<div class='ok' onclick='ok_()'>". $row["get_users_nom_complet"].'</div><br/>' ;
-    
+    echo "resultat ok" ; 
   }
 } else {
   echo "0 results";

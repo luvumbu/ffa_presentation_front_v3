@@ -270,3 +270,45 @@ function action_test(_this){
 
   console.log(_this) ; 
 }
+
+
+function general_search(_this) {
+  console.log(general_information_header_total) ; 
+  console.log(general_information_header_total) ; 
+  console.log(general_information_header_total) ; 
+  console.log(general_information_header_total) ; 
+  console.log(general_information_header_total) ; 
+
+
+
+
+
+
+
+
+
+  console.log(_this.title) ; 
+  console.log(_this.title) ; 
+  console.log(_this.title) ; 
+  console.log(_this.title) ; 
+  console.log(_this.title) ; 
+
+
+
+
+
+  var ok = new Information("view/info_envoi.php"); // création de la classe 
+  ok.add("info", _this.title); // ajout de l'information pour lenvoi 
+  ok.add("type", general_information_header_total); // ajout d'une deuxieme information denvoi  
+  console.log(ok.info()); // demande l'information dans le tableau
+   ok.push(); // envoie l'information au code pkp 
+  
+
+   const myTimeout = setTimeout(myGreeting, 200);
+
+
+   function myGreeting() {
+    Ajax("ajax_systeme","view/info_reception.php"); 
+  }
+
+}

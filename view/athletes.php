@@ -15,7 +15,11 @@ include("athletes.html") ;
 </div>
 <div class="club_img"></div>
   <b href="" id="capture"></b>
+  <?php 
+     include("ajax_systeme.php") ; 
+ ?> 
 <h5>
+
 <p>Suggestions: <span id="txtHint"></span></p>
 </h5>
 
